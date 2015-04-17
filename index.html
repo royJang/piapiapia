@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>PiaPiaPia</title>
+    <link href="public/css/htmlest.css" type="text/css" rel="stylesheet" />
+    <link href="public/css/css.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div class="main">
+    <div class="logo">
+        <div class="name">
+            <span>P</span>ia
+            <span>P</span>ia
+            <span>P</span>ia
+        </div>
+        <div class="version">
+            beta for 哄颜未央
+        </div>
+    </div>
+    <div class="content">
+        <ul>
+            <li class="cardUrl">
+                <label>帖子地址：
+                    <input type="url" class="tUrl" value="http://tieba.baidu.com/p/" />
+                </label>
+            </li>
+            <li class="cardParameters">
+                <label>每<input type="number" value="1" min="1" class="tStep"/>楼，</label>
+                <label>共<input type="number" value="1" min="1" class="tTotal"/>名。</label>
+            </li>
+            <li class="cardContent"><textarea placeholder="验证发帖内容" class="tContent"></textarea></li>
+            <div class="progress">
+                <div class="progressBar"></div>
+                <div class="progressPercent">0%</div>
+            </div>
+            <li class="cardButtons">
+                <button class="submit">确认</button>
+                <span class="warn"></span>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <ul class="search-result"></ul>
+    </div>
+</div>
+<script src="public/js/main.js"></script>
+</body>
+</html>
