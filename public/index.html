@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>PiaPiaPia</title>
+    <link href="css/htmlest.css" type="text/css" rel="stylesheet" />
+    <link href="css/css.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div class="main">
+    <div class="logo">
+        <div class="name">
+            <span>B</span>iu
+            <span>B</span>iu
+            <span>B</span>iu
+        </div>
+        <div class="version">
+            design by 西西
+        </div>
+    </div>
+    <div class="content">
+        <ul>
+            <li class="cardUrl">
+                <label>帖子地址：
+                    <input type="url" class="tUrl" value="http://tieba.baidu.com/p/3706174610"/>
+                </label>
+            </li>
+            <li class="cardParameters">
+                <label>每<input type="number" value="2" min="1" class="tStep"/>楼，</label>
+                <label>共<input type="number" value="15" min="1" class="tTotal"/>名。</label>
+            </li>
+            <li>
+                <input type="text" class="otherLayer" value=""/>&nbsp;&nbsp;(20,30,40,50)这种格式
+            </li>
+            <li class="cardContent"><textarea placeholder="验证发帖内容" class="tContent"></textarea></li>
+            <div class="progress">
+                <div class="progressBar"></div>
+                <div class="progressPercent">0%</div>
+            </div>
+            <li class="cardButtons">
+                <button class="submit">确认</button>
+                <button class="generatorImage">生成结果快照</button>
+                <span class="warn"></span>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <ul class="search-result"></ul>
+    </div>
+</div>
+<script src="js/html2canvas.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
