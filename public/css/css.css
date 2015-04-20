@@ -27,7 +27,7 @@
   float: left;
 }
 .logo .name {
-  padding: 10px;
+  padding: 20px;
   font-family: cursive;
   font-size: 40px;
   color: #993300;
@@ -37,7 +37,7 @@
 }
 .logo .version {
   font-size: 12px;
-  margin-top: 35px;
+  margin-top: 42px;
   color: #336699;
 }
 .content {
@@ -78,14 +78,22 @@
   font-family: "Microsoft YaHei";
 }
 .search-result li {
-  padding: 10px;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+}
+.search-result li:nth-child(1) {
+  border-top: 1px solid #f6f6f6;
 }
 .search-result li:nth-child(2n) {
-  background: #e3e3e3 ;
-  color: #666;
+  background: #f6f6f6;
+  color: #333;
 }
 .search-result li dl dd {
   padding: 2px;
+}
+.search-result li dl dd span.mName {
+  color: #336699;
+  font-weight: bold;
 }
 .progress {
   width: 78%;
